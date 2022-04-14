@@ -2,13 +2,15 @@
 
 ## Algorithms 
 
-|Algo| referenece  |
-|:--|:-:|
-|Genrealized Intersection over Union | [Stanford](https://giou.stanford.edu/)|
-|Gabor Filter | [Wiki](https://en.wikipedia.org/wiki/Gabor_filter)
-|Another Algorithm is here!! | [href](www.naver.com)  | 
-|intergrated Gradient | 
-|Gradient Class Activation Map |[github](https://github.com/jacobgil/pytorch-grad-cam)  |
+|-|Algo| referenece  |
+|:-:|:--|:-:|
+|2022.04.21 🚀|intergrated Gradient |[TF](https://www.tensorflow.org/tutorials/interpretability/integrated_gradients?hl=ko) [Paper](https://arxiv.org/abs/1703.01365)| 
+|🚀|Gradient Class Activation Map |[github](https://github.com/jacobgil/pytorch-grad-cam)|
+| |Genrealized Intersection over Union | [Stanford](https://giou.stanford.edu/)|
+| |Gabor Filter | [Wiki](https://en.wikipedia.org/wiki/Gabor_filter)
+| |Another Algorithm is here!! | [href](www.naver.com)  | 
+
+
 
 - [ ] Gradient Based Algorithms 
 - [ ] Sampling
