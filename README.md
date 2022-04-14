@@ -5,7 +5,9 @@
 |Algo| referenece  |
 |:-:|:-:|
 |Genrealized Intersection over Union | [Stanford](https://giou.stanford.edu/)|
+|Gabor Filter | [Wiki](https://en.wikipedia.org/wiki/Gabor_filter)
 |Another Algorithm is here!! | [href](www.naver.com)  | 
+
 
 - [ ] Gradient Based Algorithms 
 - [ ] Sampling
@@ -18,6 +20,8 @@
   - [ ] segementation 
   - [ ] image filter 
   - [ ] edge detection 
+    - [ ] Phase Stretch Transform (PST)  
+    - [ ] Gabor filter
 - [ ] NLP 
   - [ ] Beam Search 
   - [ ] TextRank
