@@ -1,10 +1,11 @@
-# Non-Gu-Dong
+# 논구동 
 
 ## Algorithms 
 
 |-|Algo| referenece  |
 |:-:|:--|:-:|
-|2022.04.21 🚀|intergrated Gradient |[TF](https://www.tensorflow.org/tutorials/interpretability/integrated_gradients?hl=ko) [Paper](https://arxiv.org/abs/1703.01365)| 
+|2022.04.21 🚀|intergrated Gradient, SmoothGrad,  |[TF](https://www.tensorflow.org/tutorials/interpretability/integrated_gradients?hl=ko) [Paper](https://arxiv.org/abs/1703.01365)| 
+|same | SmoothGrad: removing noise by adding noise | [paper](https://arxiv.org/abs/1706.03825)
 |🚀|Gradient Class Activation Map |[github](https://github.com/jacobgil/pytorch-grad-cam)|
 | |Genrealized Intersection over Union | [Stanford](https://giou.stanford.edu/)|
 | |Gabor Filter | [Wiki](https://en.wikipedia.org/wiki/Gabor_filter)
@@ -53,4 +54,11 @@
 - Timeseries : TBD
 - NLP : TBD
 - RL : CartPole 
+
+
+## Study 
+
+
+
+
 
