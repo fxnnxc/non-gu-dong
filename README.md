@@ -7,7 +7,8 @@
 |Genrealized Intersection over Union | [Stanford](https://giou.stanford.edu/)|
 |Gabor Filter | [Wiki](https://en.wikipedia.org/wiki/Gabor_filter)
 |Another Algorithm is here!! | [href](www.naver.com)  | 
-
+|intergrated Gradient | 
+|Gradient Class Activation Map |[github](https://github.com/jacobgil/pytorch-grad-cam)  |
 
 - [ ] Gradient Based Algorithms 
 - [ ] Sampling
