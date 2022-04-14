@@ -9,12 +9,21 @@
 |🚀|Gradient Class Activation Map |[github](https://github.com/jacobgil/pytorch-grad-cam)|
 | |Genrealized Intersection over Union | [Stanford](https://giou.stanford.edu/)|
 | |Gabor Filter | [Wiki](https://en.wikipedia.org/wiki/Gabor_filter)
-| |Another Algorithm is here!! | [href](www.naver.com)  | 
-
+| | Gernerative Model ! | [post](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)|
+| | Neural ODE ! | [post]() | 
 
 
 - [ ] Gradient Based Algorithms 
 - [ ] Sampling
+- [ ] Probability Distance  
+  - [ ] Wassertein
+  - [ ] MMD 
+  - [ ] Total Variance
+  - [ ] Kullback Leibler  
+- [ ] Tree 
+  - [ ] XGBoosting 
+  - [ ] CatBoost 
+  - [ ] LightGBM
 - [ ] Shapley 
 - [ ] Layer-wise Relevance Propagation 
   - [ ] Spray (Spectral Clustering)
@@ -24,8 +33,8 @@
   - [ ] segementation 
   - [ ] image filter 
   - [ ] edge detection 
-    - [ ] Phase Stretch Transform (PST)  
-    - [ ] Gabor filter
+  - [ ] Phase Stretch Transform (PST)  
+  - [ ] Gabor filter
 - [ ] NLP 
   - [ ] Beam Search 
   - [ ] TextRank
@@ -37,13 +46,29 @@
   - [ ] Power Method 
   - [ ] sinkhorn 
   - [ ] Iterative proportional fitting
+- [ ] Generative Model 
+  - [ ] GAN
+  - [ ] VAE 
+  - [ ] AE 
+  - [ ] Diffusion Model 
+  - [ ] Flow-based Model 
+  - [ ] 
 
 ---
 ## Role 
 
 돌아가면서 진행 
 
-- Search  : 새로운 알고리즘들 찾기, 알고리즘 장단점, 적용범위 담당
+Method 1 
+* Gradient Based (2~3주) 
+  * CAM :  
+  * IG : 
+  * Smooth Gradient :
+* 1 주차 
+
+
+Method 2
+
 - Analyze : 알고리즘 Psudo Code 분석 logic 설계 
 - Coder (IMP) : 코드 구현
 
