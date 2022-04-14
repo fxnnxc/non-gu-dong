@@ -4,20 +4,24 @@
 
 |Algo| referenece  |
 |:-:|:-:|
-|Algo 1 | [href](www.naver.com)  | 
-|Algo 1 | [href](www.naver.com)  | 
-|Algo 1 | [href](www.naver.com)  | 
+|Genrealized Intersection over Union | [Stanford](https://giou.stanford.edu/)|
+|Another Algorithm is here!! | [href](www.naver.com)  | 
 
 - [ ] Gradient Based Algorithms 
 - [ ] Sampling
 - [ ] Shapley 
 - [ ] Layer-wise Relevance Propagation 
   - [ ] Spray (Spectral Clustering)
-- [ ]Computer vision 
+- [ ] Computer vision 
+  - [ ] non-maximum suppression
+  - [ ] IoU / GIoU 
   - [ ] segementation 
   - [ ] image filter 
+  - [ ] edge detection 
 - [ ] NLP 
   - [ ] Beam Search 
+  - [ ] TextRank
+  - [ ] Tokenization
 - [ ] Matrix Dimension Based 
   - [ ] QR Factorization 
   - [ ] PCA 
