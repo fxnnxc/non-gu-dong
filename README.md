@@ -11,11 +11,20 @@
 - [ ] Gradient Based Algorithms 
 - [ ] Sampling
 - [ ] Shapley 
-
+- [ ] Layer-wise Relevance Propagation 
+  - [ ] Spray (Spectral Clustering)
+- [ ]Computer vision 
+  - [ ] segementation 
+  - [ ] image filter 
+- [ ] NLP 
+  - [ ] Beam Search 
 - [ ] Matrix Dimension Based 
+  - [ ] QR Factorization 
   - [ ] PCA 
   - [ ] incremental PCA
-
+  - [ ] Power Method 
+  - [ ] sinkhorn 
+  - [ ] Iterative proportional fitting
 
 ---
 ## Role 
