@@ -62,7 +62,8 @@
   - [ ] AE 
   - [ ] Diffusion Model 
   - [ ] Flow-based Model 
-  - [ ] 
+
+
 
 ---
 ## Role 
@@ -85,7 +86,7 @@ Method 2
 ## 가장 단순한 데이터셋으로 검증 
 
 - Tabular : IRIS 
-- Image : MNIST 
+- Image : MNIST / CIFA 10
 - Timeseries : TBD
 - NLP : TBD
 - RL : CartPole 
@@ -93,6 +94,10 @@ Method 2
 
 ## Study 
 
-IG 
+### 2022.04.21
+IG / Smooth / Vanila  
 * model agnostic 
 * base line 을 기준으로 변화량 측정 
+
+### 2022.04.28
+CAM / GradCAM / FullCAM
