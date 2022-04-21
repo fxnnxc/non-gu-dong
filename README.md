@@ -13,7 +13,6 @@
 | | Neural ODE ! | [post]() | 
 
 
-- [ ] Gradient Based Algorithms 
 - [ ] Sampling
 - [ ] Probability Distance  
   - [ ] Wassertein
@@ -46,6 +45,17 @@
   - [ ] Power Method 
   - [ ] sinkhorn 
   - [ ] Iterative proportional fitting
+- [ ] XAI
+  - [x] IG
+  - [ ] SmoothGrad : 
+  - [ ] Vanilla Grad :
+  - [ ] LRP
+    - [ ] Gamma Rule
+    - [ ] Epsilon 
+    - [ ] Z_plus rule 
+  - [ ] FullGrad  
+  - [ ] Grad-CAM 
+  - [ ] CAM
 - [ ] Generative Model 
   - [ ] GAN
   - [ ] VAE 
@@ -83,7 +93,6 @@ Method 2
 
 ## Study 
 
-
-
-
-
+IG 
+* model agnostic 
+* base line 을 기준으로 변화량 측정 
