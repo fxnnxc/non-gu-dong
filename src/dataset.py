@@ -20,10 +20,11 @@ def CIFAR10():
     
     return trainset, testset, classes
 
-dataset_map = {'CIFAR10': CIFAR10}
+dataset_map = {'cifar10': CIFAR10}
 ################################################################################
 
 def load_dataset(dataset):
+    dataset = dataset.lower()
     if dataset in dataset_map:
         return dataset_map[dataset]()
     else:
