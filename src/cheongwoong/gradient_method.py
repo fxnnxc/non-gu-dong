@@ -44,7 +44,7 @@ def integrated_gradient(model, x, x_baseline, target_class, M, device, **temp):
     return output
 
 
-def vanila_gradient(model, x, target_class, device, **temp):
+def vanilla_gradient(model, x, target_class, device, **temp):
     X = x.unsqueeze(0)
     X = Variable(X, requires_grad=True).to(device)
     X.retain_grad()

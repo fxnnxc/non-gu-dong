@@ -21,7 +21,7 @@ def integrated_gradient(model, x, x_baseline, target_class, M, **temp):
     return output
 
 
-def vanila_gradient(model, x, **temp):
+def vanilla_gradient(model, x, **temp):
     output = {}
     
     return output
