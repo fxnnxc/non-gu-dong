@@ -15,7 +15,7 @@ import numpy as np
 ################################################################################
 
 
-def integrated_gradient(model, x, x_baseline, target_class, M, device, **temp):
+def integrated_gradient(model, x, baseline, target_class, M, device, **temp):
     def make_interpolation(x, base, M):
         lst = [] 
         for i in range(M):
@@ -32,10 +32,13 @@ def integrated_gradient(model, x, x_baseline, target_class, M, device, **temp):
     baseline = baseline.to(device)
     
     logits = model(X)
-    logits = logits[:,target_class]
+
+    index = torch.ones((logits.size()[0], 1), dtype=torch.int64) * target_class
+    index = index.to(device)
+    logits = logits.gather(1, index)
 
     model.zero_grad()
-    logits.backward()
+    logits.sum().backward()
 
     gradient = (x - baseline) * X.grad.sum(axis=0)
 
@@ -50,7 +53,10 @@ def vanilla_gradient(model, x, target_class, device, **temp):
     X.retain_grad()
     
     logits = model(X)
-    logits = logits[:,target_class]
+    
+    index = torch.ones((logits.size()[0], 1), dtype=torch.int64) * target_class
+    index = index.to(device)
+    logits = logits.gather(1, index)
 
     model.zero_grad()
     logits.backward()
@@ -77,10 +83,13 @@ def smooth_gradient(model, x, target_class, M, sigma, device, **temp):
     Y = torch.stack([target_class for i in range(len(X))]).to(device)
     
     logits = model(X)
-    logits = logits[:,target_class]
+
+    index = torch.ones((logits.size()[0], 1), dtype=torch.int64) * target_class
+    index = index.to(device)
+    logits = logits.gather(1, index)
 
     model.zero_grad()
-    logits.backward()
+    logits.sum().backward()
 
     gradient = X.grad.sum(axis=0)
 

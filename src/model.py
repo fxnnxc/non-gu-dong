@@ -37,6 +37,6 @@ def load_model(model, checkpoint=None):
         raise NotImplementedError
 
     if checkpoint is not None:
-        model.load_state_dict(torch.load(os.path.join(dir_path, 'untracked/model', checkpoint)))
+        model.load_state_dict(torch.load(os.path.join(dir_path, 'untracked', 'model', checkpoint)))
     
     return model
